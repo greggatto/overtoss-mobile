@@ -8,6 +8,52 @@
   <sprites name="sprites"/>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <scripts name="Global">
+      <scripts name="Loader">
+        <script>scripts\SCR_Loader_Create.gml</script>
+        <script>scripts\SCR_Loader_Alarm0.gml</script>
+        <script>scripts\SCR_Loader_Step.gml</script>
+      </scripts>
+      <scripts name="Clicker">
+        <script>scripts\SCR_Clicker_Create.gml</script>
+        <script>scripts\SCR_Clicker_Left_Button.gml</script>
+        <script>scripts\SCR_Clicker_Left_Release.gml</script>
+        <script>scripts\SCR_Clicker_Draw.gml</script>
+      </scripts>
+      <script>scripts\debug.gml</script>
+    </scripts>
+    <scripts name="OLD">
+      <script>scripts\scr_Overlord_Step.gml</script>
+      <script>scripts\scr_variables.gml</script>
+      <script>scripts\scr_mBars_Draw.gml</script>
+      <script>scripts\scr_HUD.gml</script>
+      <script>scripts\scr_ShotDir_Create.gml</script>
+      <script>scripts\scr_ShotDir_Step.gml</script>
+      <script>scripts\scr_ShotPwr_Create.gml</script>
+      <script>scripts\scr_ShotPwr_Step.gml</script>
+      <script>scripts\scr_Burst_Create.gml</script>
+      <script>scripts\scr_Burst_Step.gml</script>
+      <script>scripts\scr_Burst_Click.gml</script>
+      <script>scripts\scr_Ball_Create.gml</script>
+      <script>scripts\scr_Ball_Step.gml</script>
+      <script>scripts\scr_Ball_Collision.gml</script>
+      <script>scripts\scr_ball_alarm0_Burst_check.gml</script>
+      <script>scripts\check_level.gml</script>
+      <script>scripts\check_wpn.gml</script>
+      <script>scripts\scr_click.gml</script>
+      <script>scripts\scr_doodsCreate.gml</script>
+      <script>scripts\scr_doodsStep.gml</script>
+      <script>scripts\scr_shieldCreate.gml</script>
+      <script>scripts\scr_wpnCreate.gml</script>
+      <script>scripts\scr_wpnStep.gml</script>
+      <script>scripts\scr_wpns_Draw.gml</script>
+    </scripts>
+  </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_debug</font>
+    <font>fonts\fnt_game</font>
+  </fonts>
   <help>
     <rtf>help.rtf</rtf>
   </help>
