@@ -1,4 +1,4 @@
-if (global.pState == 3)
+if (global.pState == GAME)
 {
     x = obj_wpnPos.x;
     y = obj_wpnPos.y;

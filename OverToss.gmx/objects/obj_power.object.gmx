@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.pState == 3) // if pState is in game
+            <string>if (global.pState == GAME) // if pState is in game
 {
     instance_destroy(); // destroy this pointer
 }  

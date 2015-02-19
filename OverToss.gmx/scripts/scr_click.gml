@@ -18,7 +18,7 @@ if (myN == 2) // Score to Wpns
 if (myN == 3) // Score to Game
 {
     room_goto(MainLevel);
-    global.pState = 1;
+    global.pState = ANGLE_PRESS;
 }
 if (myN == 4) // Wpns to Score
 {
