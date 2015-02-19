@@ -54,6 +54,18 @@
     <font>fonts\fnt_debug</font>
     <font>fonts\fnt_game</font>
   </fonts>
+  <constants number="10">
+    <constant name="NULL">0</constant>
+    <constant name="ANGLE_PRESS">1</constant>
+    <constant name="POWER_PRESS">2</constant>
+    <constant name="GAME">3</constant>
+    <constant name="MENU">4</constant>
+    <constant name="STICK">1</constant>
+    <constant name="BAT">2</constant>
+    <constant name="CLUB">3</constant>
+    <constant name="RACKET">4</constant>
+    <constant name="GOLF">5</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>
