@@ -54,6 +54,50 @@
     <font>fonts\fnt_debug</font>
     <font>fonts\fnt_game</font>
   </fonts>
+  <objects name="objects">
+    <object>objects\obj_angle</object>
+    <object>objects\obj_angle_pointer</object>
+    <object>objects\obj_ball</object>
+    <object>objects\obj_ballStart</object>
+    <object>objects\obj_bars</object>
+    <object>objects\obj_bEquip</object>
+    <object>objects\obj_bExit</object>
+    <object>objects\obj_bHit</object>
+    <object>objects\obj_bInfo</object>
+    <object>objects\obj_bLuck</object>
+    <object>objects\obj_bMenu</object>
+    <object>objects\obj_bNext</object>
+    <object>objects\obj_bouceMaster</object>
+    <object>objects\obj_bPlay</object>
+    <object>objects\obj_bPower</object>
+    <object>objects\obj_bPrev</object>
+    <object>objects\obj_bReturn</object>
+    <object>objects\obj_Burst</object>
+    <object>objects\obj_click_parent</object>
+    <object>objects\obj_click_test</object>
+    <object>objects\obj_deadGuy</object>
+    <object>objects\obj_Floor</object>
+    <object>objects\obj_HUD</object>
+    <object>objects\obj_lvlUp</object>
+    <object>objects\obj_mEquip</object>
+    <object>objects\obj_mInfo</object>
+    <object>objects\obj_mMenu</object>
+    <object>objects\obj_mScore</object>
+    <object>objects\obj_Overlord</object>
+    <object>objects\obj_player</object>
+    <object>objects\obj_power</object>
+    <object>objects\obj_power_pointer</object>
+    <object>objects\obj_shields</object>
+    <object>objects\obj_startPlace</object>
+    <object>objects\obj_wpnPos</object>
+    <object>objects\obj_wpns</object>
+    <object>objects\obj_bAgain</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\MainLevel</room>
+    <room>rooms\Menus</room>
+    <room>rooms\room1</room>
+  </rooms>
   <constants number="10">
     <constant name="NULL">0</constant>
     <constant name="ANGLE_PRESS">1</constant>
