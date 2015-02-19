@@ -98,7 +98,7 @@
     <room>rooms\Menus</room>
     <room>rooms\room1</room>
   </rooms>
-  <constants number="10">
+  <constants number="13">
     <constant name="NULL">0</constant>
     <constant name="ANGLE_PRESS">1</constant>
     <constant name="POWER_PRESS">2</constant>
@@ -109,6 +109,9 @@
     <constant name="CLUB">3</constant>
     <constant name="RACKET">4</constant>
     <constant name="GOLF">5</constant>
+    <constant name="LUCK">1</constant>
+    <constant name="POWER">2</constant>
+    <constant name="HIT">3</constant>
   </constants>
   <help>
     <rtf>help.rtf</rtf>
