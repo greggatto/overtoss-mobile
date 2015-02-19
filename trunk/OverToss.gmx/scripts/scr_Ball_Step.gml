@@ -11,7 +11,7 @@ global.bY = room_height - y - sprite_height/2;
 
 if (speed <= 0.4)
 {
-    global.pState = 0;
+    global.pState = NULL;
     global.ballExist = false;
    // global.dEXP = global.pEXP;
     global.pEXP += global.bDist/50;

@@ -1,2 +1,2 @@
-if (global.pState == 3)
+if (global.pState == GAME)
     image_index = 1;
