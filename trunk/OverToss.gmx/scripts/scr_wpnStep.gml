@@ -13,23 +13,23 @@ if (room == Menus)
         {
             if (image_index == 0 && global.wpn1)
             {
-                global.wpnInUse = 1;
+                global.wpnInUse = STICK;
             }
             else if (image_index == 1 && global.wpn2)
             {
-                global.wpnInUse = 2;
+                global.wpnInUse = BAT;
             }
             else if (image_index == 2 && global.wpn3)
             {
-                global.wpnInUse = 3;
+                global.wpnInUse = CLUB;
             }
             else if (image_index == 3 && global.wpn4)
             {
-                global.wpnInUse = 4;
+                global.wpnInUse = RACKET;
             }
             else if (image_index == 4 && global.wpn5)
             {
-                global.wpnInUse = 5;
+                global.wpnInUse = GOLF;
             }
         }
     }
