@@ -1,4 +1,4 @@
-USE = mouse_check_button_pressed(mb_left);
+USE = device_mouse_check_button_pressed(0, mb_left);
 if (USE)
 {
     global.check = true;
