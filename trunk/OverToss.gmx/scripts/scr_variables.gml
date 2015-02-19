@@ -1,5 +1,5 @@
 // PLAYER
-global.pState = 0; // 0 = Null / 1 = Angle press / 2 = Power press / 3 = Game / 4 = Menu, others
+global.pState = NULL; // NULL = 0 / ANGLE_PRESS = 1 / POWER_PRESS = 2 / GAME = 3 / MENU = 4, others
 global.pLevel = 1; // Player LVL
 global.pEXP = 0; // Player XP
 global.reqEXP = 1; // Gained EXP
@@ -27,8 +27,8 @@ global.bY = 0; // Altitude of ball
 global.ballExist = false;
 
 // WEAPONS
-global.wpnInUse = 1; // 1 to 5
-global.optInUse = 2; // 1 to 3 / 1 = Lck / 2 = Pwr / 3 = Hit
+global.wpnInUse = STICK; // STICK = 1 / BAT = 2 / CLUB = 3 / RACKET = 4 / GOLF = 5
+global.optInUse = POWER; // LUCK = 1 / POWER = 2 / HIT = 3
 global.wpn1 = true;
 global.wpn2 = false;
 global.wpn3 = false;
