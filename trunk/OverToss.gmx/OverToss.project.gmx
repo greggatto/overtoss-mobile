@@ -25,8 +25,16 @@
       <sprite>sprites\spr_Cannon</sprite>
     </sprites>
     <sprites name="Weapons">
-      <sprite>sprites\spr_SpikedClub</sprite>
+      <sprite>sprites\spr_SpikedClubImage</sprite>
       <sprite>sprites\Spr_SpikedClubVector</sprite>
+      <sprite>sprites\spr_StopSignImage</sprite>
+      <sprite>sprites\dpr_StopSignVector</sprite>
+      <sprite>sprites\spr_DoubleSidedAxeImage</sprite>
+      <sprite>sprites\spr_DoubleSidedAxeVector</sprite>
+      <sprite>sprites\spr_HammerImage</sprite>
+      <sprite>sprites\spr_HammerVector</sprite>
+      <sprite>sprites\spr_ChaosEaterImage</sprite>
+      <sprite>sprites\spr_ChaosEaterVector</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background"/>
