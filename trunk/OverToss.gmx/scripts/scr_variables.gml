@@ -29,7 +29,7 @@ global.ballExist = false;
 // WEAPONS
 global.wpnInUse = STICK; // STICK = 1 / BAT = 2 / CLUB = 3 / RACKET = 4 / GOLF = 5
 global.optInUse = POWER; // LUCK = 1 / POWER = 2 / HIT = 3
-global.wpn1 = true;
+global.wpn1 = true; // For unlocked wpns
 global.wpn2 = false;
 global.wpn3 = false;
 global.wpn4 = false;
