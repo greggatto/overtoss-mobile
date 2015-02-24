@@ -1,4 +1,13 @@
+DEBUG = keyboard_check_pressed(ord("D"));
 USE = device_mouse_check_button_pressed(0, mb_left);
+
+// Toggles Debug Mode
+if (DEBUG)
+{
+    global.Debug = true;
+}
+
+// Tap / mouse click
 if (USE)
 {
     global.check = true;
@@ -8,6 +17,7 @@ else
     global.check = false;
 }
 
+/*
 if (global.pState == ANGLE_PRESS) // if pState allows the angle pointer
 {
     instance_create(view_xview[0]+192, view_yview[0]+320,obj_angle_pointer); // create angle pointer

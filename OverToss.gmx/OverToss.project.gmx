@@ -18,22 +18,26 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
-    <scripts name="Global">
+    <scripts name="GLOBAL">
       <scripts name="Loader">
+        <script>scripts\LOADER_README.gml</script>
         <script>scripts\SCR_Loader_Create.gml</script>
         <script>scripts\SCR_Loader_Alarm0.gml</script>
-        <script>scripts\SCR_Loader_Step.gml</script>
       </scripts>
       <scripts name="Clicker">
+        <script>scripts\BUTTONS_README.gml</script>
         <script>scripts\SCR_Clicker_Create.gml</script>
         <script>scripts\SCR_Clicker_Left_Button.gml</script>
         <script>scripts\SCR_Clicker_Left_Release.gml</script>
         <script>scripts\SCR_Clicker_Draw.gml</script>
       </scripts>
       <script>scripts\debug.gml</script>
+      <scripts name="Overlord">
+        <script>scripts\OVERLORD_README.gml</script>
+        <script>scripts\scr_Overlord_Step.gml</script>
+      </scripts>
     </scripts>
     <scripts name="OLD">
-      <script>scripts\scr_Overlord_Step.gml</script>
       <script>scripts\scr_variables.gml</script>
       <script>scripts\scr_mBars_Draw.gml</script>
       <script>scripts\scr_HUD.gml</script>
@@ -50,13 +54,29 @@
       <script>scripts\scr_ball_alarm0_Burst_check.gml</script>
       <script>scripts\check_level.gml</script>
       <script>scripts\check_wpn.gml</script>
-      <script>scripts\scr_click.gml</script>
       <script>scripts\scr_doodsCreate.gml</script>
       <script>scripts\scr_doodsStep.gml</script>
       <script>scripts\scr_shieldCreate.gml</script>
       <script>scripts\scr_wpnCreate.gml</script>
       <script>scripts\scr_wpnStep.gml</script>
       <script>scripts\scr_wpns_Draw.gml</script>
+    </scripts>
+    <scripts name="BALL_minion">
+      <script>scripts\Minion_Info.gml</script>
+    </scripts>
+    <scripts name="HUD">
+      <script>scripts\HUD_Info.gml</script>
+    </scripts>
+    <scripts name="POINTERS">
+      <script>scripts\Pointers_Info.gml</script>
+    </scripts>
+    <scripts name="WEAPONS">
+      <script>scripts\Wpns_Info.gml</script>
+      <script>scripts\WeaponStats.gml</script>
+    </scripts>
+    <scripts name="PLAYER">
+      <script>scripts\Player_Info.gml</script>
+      <script>scripts\PlayerStats.gml</script>
     </scripts>
   </scripts>
   <fonts name="fonts">
@@ -70,28 +90,20 @@
     <object>objects\obj_ballStart</object>
     <object>objects\obj_bars</object>
     <object>objects\obj_bEquip</object>
-    <object>objects\obj_bExit</object>
     <object>objects\obj_bHit</object>
     <object>objects\obj_bInfo</object>
     <object>objects\obj_bLuck</object>
     <object>objects\obj_bMenu</object>
     <object>objects\obj_bNext</object>
     <object>objects\obj_bouceMaster</object>
-    <object>objects\obj_bPlay</object>
     <object>objects\obj_bPower</object>
     <object>objects\obj_bPrev</object>
-    <object>objects\obj_bReturn</object>
     <object>objects\obj_Burst</object>
-    <object>objects\obj_click_parent</object>
-    <object>objects\obj_click_test</object>
     <object>objects\obj_deadGuy</object>
     <object>objects\obj_Floor</object>
     <object>objects\obj_HUD</object>
     <object>objects\obj_lvlUp</object>
-    <object>objects\obj_mEquip</object>
-    <object>objects\obj_mInfo</object>
     <object>objects\obj_mMenu</object>
-    <object>objects\obj_mScore</object>
     <object>objects\obj_Overlord</object>
     <object>objects\obj_player</object>
     <object>objects\obj_power</object>
@@ -100,27 +112,43 @@
     <object>objects\obj_startPlace</object>
     <object>objects\obj_wpnPos</object>
     <object>objects\obj_wpns</object>
-    <object>objects\obj_bAgain</object>
+    <objects name="BUTTONS">
+      <object>objects\OBJ_ClickerLord</object>
+      <objects name="FE_FrontEnd">
+        <object>objects\OBJ_FE_Play</object>
+        <object>objects\OBJ_FE_Options</object>
+        <object>objects\OBJ_FE_Arsenal</object>
+        <object>objects\OBJ_FE_Exit</object>
+      </objects>
+      <objects name="A_Arsenal"/>
+      <objects name="SS_SummaryScreen">
+        <object>objects\OBJ_SS_Restart</object>
+        <object>objects\OBJ_SS_Arsenal</object>
+        <object>objects\OBJ_SS_FrontEnd</object>
+      </objects>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainLevel</room>
     <room>rooms\Menus</room>
     <room>rooms\room1</room>
   </rooms>
-  <constants number="13">
+  <constants number="15">
     <constant name="NULL">0</constant>
-    <constant name="ANGLE_PRESS">1</constant>
-    <constant name="POWER_PRESS">2</constant>
-    <constant name="GAME">3</constant>
-    <constant name="MENU">4</constant>
+    <constant name="FRONTEND">1</constant>
+    <constant name="GAME">2</constant>
+    <constant name="SUMMARY">3</constant>
+    <constant name="ARSENAL">4</constant>
+    <constant name="STORE">5</constant>
+    <constant name="EQUIPROOM">6</constant>
     <constant name="STICK">1</constant>
     <constant name="BAT">2</constant>
     <constant name="CLUB">3</constant>
     <constant name="RACKET">4</constant>
     <constant name="GOLF">5</constant>
-    <constant name="LUCK">1</constant>
-    <constant name="POWER">2</constant>
-    <constant name="HIT">3</constant>
+    <constant name="POWER">1</constant>
+    <constant name="PRECISION">2</constant>
+    <constant name="KARMA">3</constant>
   </constants>
   <help>
     <rtf>help.rtf</rtf>
