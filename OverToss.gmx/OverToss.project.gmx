@@ -7,12 +7,26 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="Ball">
-      <sprite>sprites\spr_ball1</sprite>
-      <sprite>sprites\spr_ball2</sprite>
+      <sprite>sprites\spr_MinionImage</sprite>
+      <sprite>sprites\spr_MinionVector</sprite>
+      <sprite>sprites\spr_GolfBallImage</sprite>
+      <sprite>sprites\spr_GolfBallVector</sprite>
+      <sprite>sprites\spr_RammusImage</sprite>
+      <sprite>sprites\spr_RammusVector</sprite>
+      <sprite>sprites\spr_NinjaImage</sprite>
+      <sprite>sprites\spr_NinjaVector</sprite>
+      <sprite>sprites\spr_SuperHeroImage</sprite>
+      <sprite>sprites\spr_SuperHeroVector</sprite>
     </sprites>
     <sprites name="Terrain">
-      <sprite>sprites\sprite2</sprite>
       <sprite>sprites\spr_spikes</sprite>
+      <sprite>sprites\spr_Ooze</sprite>
+      <sprite>sprites\spr_Devil</sprite>
+      <sprite>sprites\spr_Cannon</sprite>
+    </sprites>
+    <sprites name="Weapons">
+      <sprite>sprites\spr_SpikedClub</sprite>
+      <sprite>sprites\Spr_SpikedClubVector</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background"/>
@@ -120,7 +134,6 @@
         <object>objects\OBJ_FE_Arsenal</object>
         <object>objects\OBJ_FE_Exit</object>
       </objects>
-      <objects name="A_Arsenal"/>
       <objects name="SS_SummaryScreen">
         <object>objects\OBJ_SS_Restart</object>
         <object>objects\OBJ_SS_Arsenal</object>
