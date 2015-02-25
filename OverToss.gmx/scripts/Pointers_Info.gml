@@ -2,6 +2,10 @@
 
 This shows the pointers that define the initial angle and speed
 
+Two objects per pointer (Background image and the pointer) [Total of 4 objects]
+                    OR
+Two objects (Background and pointers), which change behavior based on what pointer is active
+
 ====== Angle Pointer ======
 
 90 degrees of a circle
