@@ -154,7 +154,7 @@
     <room>rooms\Menus</room>
     <room>rooms\room1</room>
   </rooms>
-  <constants number="15">
+  <constants number="16">
     <constant name="NULL">0</constant>
     <constant name="FRONTEND">1</constant>
     <constant name="GAME">2</constant>
@@ -170,6 +170,7 @@
     <constant name="POWER">1</constant>
     <constant name="PRECISION">2</constant>
     <constant name="KARMA">3</constant>
+    <constant name="DILDO">6</constant>
   </constants>
   <help>
     <rtf>help.rtf</rtf>
