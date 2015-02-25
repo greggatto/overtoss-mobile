@@ -91,6 +91,7 @@
     </scripts>
     <scripts name="POINTERS">
       <script>scripts\Pointers_Info.gml</script>
+      <script>scripts\Pointers.gml</script>
     </scripts>
     <scripts name="WEAPONS">
       <script>scripts\Wpns_Info.gml</script>
