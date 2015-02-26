@@ -14,7 +14,7 @@ while (!Used) // While I don't tap that screen
     if (global.check)
     {
         Used = true;
-        initX/
+        MinionLaunch(OBJ_PAngle.LaunchAngle, LaunchPower);
     }
 }
 debug(numSpeed, "Speed");

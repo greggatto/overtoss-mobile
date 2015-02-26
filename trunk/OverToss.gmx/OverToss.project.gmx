@@ -77,7 +77,7 @@
       <script>scripts\debug.gml</script>
       <scripts name="Overlord">
         <script>scripts\OVERLORD_README.gml</script>
-        <script>scripts\scr_Overlord_Step.gml</script>
+        <script>scripts\SCR_Overlord_Step.gml</script>
       </scripts>
     </scripts>
     <scripts name="OLD">
@@ -93,7 +93,6 @@
       <script>scripts\scr_Burst_Click.gml</script>
       <script>scripts\scr_Ball_Create.gml</script>
       <script>scripts\scr_Ball_Step.gml</script>
-      <script>scripts\scr_Ball_Collision.gml</script>
       <script>scripts\scr_ball_alarm0_Burst_check.gml</script>
       <script>scripts\check_level.gml</script>
       <script>scripts\check_wpn.gml</script>
@@ -104,10 +103,11 @@
       <script>scripts\scr_wpnStep.gml</script>
       <script>scripts\scr_wpns_Draw.gml</script>
     </scripts>
-    <scripts name="BALL_minion">
+    <scripts name="MINION_ball">
       <script>scripts\Minion_Info.gml</script>
       <script>scripts\MinionSpawn.gml</script>
       <script>scripts\MinionLaunch.gml</script>
+      <script>scripts\SCR_Minion_Collision.gml</script>
     </scripts>
     <scripts name="HUD">
       <script>scripts\HUD_Info.gml</script>
@@ -136,7 +136,10 @@
     <font>fonts\fnt_game</font>
   </fonts>
   <objects name="objects">
-    <object>objects\OBJ_LOADER</object>
+    <objects name="GLOBAL">
+      <object>objects\OBJ_LOADER</object>
+      <object>objects\OBJ_Overlord</object>
+    </objects>
     <objects name="BUTTONS">
       <object>objects\OBJ_ClickerLord</object>
       <objects name="FE_FrontEnd">
@@ -152,8 +155,8 @@
       </objects>
     </objects>
     <objects name="POINTERS">
-      <object>objects\OBJ_Angle_Pointer</object>
-      <object>objects\OBJ_Power_Pointer</object>
+      <object>objects\OBJ_PAngle</object>
+      <object>objects\OBJ_PPower</object>
     </objects>
     <objects name="POSITION_SETTING">
       <object>objects\OBJ_Weapon_StartPos</object>
@@ -181,7 +184,6 @@
       <object>objects\obj_player</object>
       <object>objects\obj_mMenu</object>
       <object>objects\obj_shields</object>
-      <object>objects\obj_Overlord</object>
     </objects>
   </objects>
   <rooms name="rooms">
