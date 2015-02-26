@@ -147,6 +147,7 @@
         <object>objects\OBJ_FE_Options</object>
         <object>objects\OBJ_FE_Arsenal</object>
         <object>objects\OBJ_FE_Exit</object>
+        <object>objects\OBJ_FE_Pause</object>
       </objects>
       <objects name="SS_SummaryScreen">
         <object>objects\OBJ_SS_Restart</object>
