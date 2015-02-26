@@ -146,9 +146,7 @@
       </objects>
     </objects>
     <objects name="POINTERS">
-      <object>objects\OBJ_Angle_BKG</object>
       <object>objects\OBJ_Angle_Pointer</object>
-      <object>objects\OBJ_Power_BKG</object>
       <object>objects\OBJ_Power_Pointer</object>
     </objects>
     <objects name="POSITION_SETTING">
