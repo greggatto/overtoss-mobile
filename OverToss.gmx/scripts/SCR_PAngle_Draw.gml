@@ -4,9 +4,9 @@ draw_sprite_ext(SPR_PAngle, 0, initX, initY, 1, 1, startPos, c_white, 1); // Dra
 
 while (!Used) // While I don't tap that screen
 {
-    initX += numSpeed; // pointer moves at a set speed
+    startPos += numSpeed; // pointer moves at a set speed
     
-    if (initX <= (x - sprite_get_width(SPR_PPointer_BKG)/2) || initX >= (x + sprite_get_width(SPR_PPointer_BKG)/2))
+    if (startPos <= numMin || startPos >= numMax)
     {
         numSpeed = - numSpeed;
     }
