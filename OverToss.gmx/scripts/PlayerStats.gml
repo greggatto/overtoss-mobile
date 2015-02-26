@@ -1,3 +1,5 @@
+// Use this only when the Overlord is created
+
 currentLord = argument0;
 
 switch currentLord
@@ -20,3 +22,7 @@ switch currentLord
         PlayerKarma = 2;
     break;
 }
+
+global.PlayerPower = PlayerPower; // Set the global Power
+global.PlayerPrecision = PlayerPrecision; // Set the global Precision
+global.PlayerKarma = PlayerKarma; // Set the global Karma

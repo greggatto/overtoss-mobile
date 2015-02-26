@@ -107,6 +107,7 @@
     <scripts name="BALL_minion">
       <script>scripts\Minion_Info.gml</script>
       <script>scripts\MinionSpawn.gml</script>
+      <script>scripts\MinionLaunch.gml</script>
     </scripts>
     <scripts name="HUD">
       <script>scripts\HUD_Info.gml</script>
@@ -114,6 +115,12 @@
     <scripts name="POINTERS">
       <script>scripts\Pointers_Info.gml</script>
       <script>scripts\PointerSpawn.gml</script>
+      <scripts name="Power">
+        <script>scripts\SCR_PPower_Draw.gml</script>
+      </scripts>
+      <scripts name="Angle">
+        <script>scripts\SCR_PAngle_Draw.gml</script>
+      </scripts>
     </scripts>
     <scripts name="WEAPONS">
       <script>scripts\Wpns_Info.gml</script>
@@ -183,23 +190,20 @@
     <room>rooms\room1</room>
     <room>rooms\Menus</room>
   </rooms>
-  <constants number="16">
+  <constants number="13">
     <constant name="NULL">0</constant>
-    <constant name="FRONTEND">1</constant>
-    <constant name="GAME">2</constant>
-    <constant name="SUMMARY">3</constant>
-    <constant name="ARSENAL">4</constant>
-    <constant name="STORE">5</constant>
-    <constant name="EQUIPROOM">6</constant>
+    <constant name="ANGLE_PRESS">1</constant>
+    <constant name="POWER_PRESS">2</constant>
+    <constant name="INGAME">3</constant>
     <constant name="STICK">1</constant>
     <constant name="BAT">2</constant>
     <constant name="CLUB">3</constant>
     <constant name="RACKET">4</constant>
     <constant name="GOLF">5</constant>
+    <constant name="DILDO">6</constant>
     <constant name="POWER">1</constant>
     <constant name="PRECISION">2</constant>
     <constant name="KARMA">3</constant>
-    <constant name="DILDO">6</constant>
   </constants>
   <help>
     <rtf>help.rtf</rtf>
