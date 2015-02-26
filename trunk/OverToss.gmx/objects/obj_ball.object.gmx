@@ -158,7 +158,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_angle">
+    <event eventtype="4" ename="obj_ball">
       <action>
         <libid>1</libid>
         <id>601</id>
