@@ -85,13 +85,14 @@
     </scripts>
     <scripts name="BALL_minion">
       <script>scripts\Minion_Info.gml</script>
+      <script>scripts\MinionSpawn.gml</script>
     </scripts>
     <scripts name="HUD">
       <script>scripts\HUD_Info.gml</script>
     </scripts>
     <scripts name="POINTERS">
       <script>scripts\Pointers_Info.gml</script>
-      <script>scripts\Pointers.gml</script>
+      <script>scripts\PointerSpawn.gml</script>
     </scripts>
     <scripts name="WEAPONS">
       <script>scripts\Wpns_Info.gml</script>
@@ -107,8 +108,6 @@
     <font>fonts\fnt_game</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_angle</object>
-    <object>objects\obj_angle_pointer</object>
     <object>objects\obj_ball</object>
     <object>objects\obj_ballStart</object>
     <object>objects\obj_bars</object>
@@ -129,11 +128,8 @@
     <object>objects\obj_mMenu</object>
     <object>objects\obj_Overlord</object>
     <object>objects\obj_player</object>
-    <object>objects\obj_power</object>
-    <object>objects\obj_power_pointer</object>
     <object>objects\obj_shields</object>
     <object>objects\obj_startPlace</object>
-    <object>objects\obj_wpnPos</object>
     <object>objects\obj_wpns</object>
     <objects name="BUTTONS">
       <object>objects\OBJ_ClickerLord</object>
@@ -149,8 +145,18 @@
         <object>objects\OBJ_SS_FrontEnd</object>
       </objects>
     </objects>
+    <objects name="POINTERS">
+      <object>objects\OBJ_Angle_BKG</object>
+      <object>objects\OBJ_Angle_Pointer</object>
+      <object>objects\OBJ_Power_BKG</object>
+      <object>objects\OBJ_Power_Pointer</object>
+    </objects>
+    <objects name="POSITION_SETTING">
+      <object>objects\OBJ_Weapon_StartPos</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\RM_Loader</room>
     <room>rooms\MainLevel</room>
     <room>rooms\Menus</room>
     <room>rooms\room1</room>
