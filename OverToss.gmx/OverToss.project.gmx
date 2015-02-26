@@ -36,6 +36,27 @@
       <sprite>sprites\spr_ChaosEaterImage</sprite>
       <sprite>sprites\spr_ChaosEaterVector</sprite>
     </sprites>
+    <sprites name="Button">
+      <sprite>sprites\spr_Play</sprite>
+      <sprite>sprites\spr_Credits</sprite>
+      <sprite>sprites\spr_Options</sprite>
+      <sprite>sprites\spr_QuitGame</sprite>
+      <sprite>sprites\spr_Sound</sprite>
+      <sprite>sprites\spr_Music</sprite>
+      <sprite>sprites\spr_Gore</sprite>
+      <sprite>sprites\spr_No</sprite>
+      <sprite>sprites\Spr_Yes</sprite>
+      <sprite>sprites\spr_Pause</sprite>
+      <sprite>sprites\spr_Resume</sprite>
+      <sprite>sprites\spr_Store</sprite>
+      <sprite>sprites\spr_Exit</sprite>
+      <sprite>sprites\spr_MainMenu</sprite>
+      <sprite>sprites\spr_Environment</sprite>
+      <sprite>sprites\spr_MInion</sprite>
+      <sprite>sprites\spr_Weapon</sprite>
+      <sprite>sprites\spr_Overlord</sprite>
+      <sprite>sprites\spr_SpecialDeal</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
