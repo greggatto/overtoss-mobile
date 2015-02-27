@@ -1,3 +1,5 @@
+///PointerSpawn(pointer);
+
 currentPointer = argument0
 
 // Set speed and direction pointers

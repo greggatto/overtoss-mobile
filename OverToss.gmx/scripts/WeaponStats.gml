@@ -1,3 +1,5 @@
+///WeaponStats(weapon);
+
 currentWpn = argument0;
 
 switch currentWpn

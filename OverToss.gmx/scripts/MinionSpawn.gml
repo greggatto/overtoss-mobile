@@ -1,3 +1,5 @@
+///MinionSpawn(skin);
+
 currentMinion = argument0
 
 // Set values to 0 and select chosen skin

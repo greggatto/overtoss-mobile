@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.optInUse != 3)
+            <string>/// hauehaueae
+
+if (global.optInUse != 3)
     selected = false;
 else   
     selected = true;

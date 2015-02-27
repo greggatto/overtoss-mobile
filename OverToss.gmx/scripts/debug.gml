@@ -1,3 +1,6 @@
+///debug(value, name);
+
+
 textString = string(argument0); // Value of the variable
 variableName = argument1; // Name of the variable
 textX = x + 2;

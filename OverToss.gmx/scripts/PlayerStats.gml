@@ -1,3 +1,4 @@
+///PlayerStats(overlord);
 // Use this only when the Overlord is created
 
 currentLord = argument0;

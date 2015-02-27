@@ -81,32 +81,13 @@
       </scripts>
     </scripts>
     <scripts name="OLD">
-      <script>scripts\scr_variables.gml</script>
       <script>scripts\scr_mBars_Draw.gml</script>
-      <script>scripts\scr_HUD.gml</script>
-      <script>scripts\scr_ShotDir_Create.gml</script>
-      <script>scripts\scr_ShotDir_Step.gml</script>
-      <script>scripts\scr_ShotPwr_Create.gml</script>
-      <script>scripts\scr_ShotPwr_Step.gml</script>
-      <script>scripts\scr_Burst_Create.gml</script>
-      <script>scripts\scr_Burst_Step.gml</script>
-      <script>scripts\scr_Burst_Click.gml</script>
-      <script>scripts\scr_Ball_Create.gml</script>
-      <script>scripts\scr_Ball_Step.gml</script>
-      <script>scripts\scr_ball_alarm0_Burst_check.gml</script>
-      <script>scripts\check_level.gml</script>
-      <script>scripts\check_wpn.gml</script>
-      <script>scripts\scr_doodsCreate.gml</script>
-      <script>scripts\scr_doodsStep.gml</script>
-      <script>scripts\scr_shieldCreate.gml</script>
-      <script>scripts\scr_wpnCreate.gml</script>
-      <script>scripts\scr_wpnStep.gml</script>
-      <script>scripts\scr_wpns_Draw.gml</script>
     </scripts>
     <scripts name="MINION_ball">
       <script>scripts\Minion_Info.gml</script>
       <script>scripts\MinionSpawn.gml</script>
       <script>scripts\MinionLaunch.gml</script>
+      <script>scripts\SCR_Minion_Step.gml</script>
       <script>scripts\SCR_Minion_Collision.gml</script>
     </scripts>
     <scripts name="HUD">
@@ -129,6 +110,7 @@
     <scripts name="PLAYER">
       <script>scripts\Player_Info.gml</script>
       <script>scripts\PlayerStats.gml</script>
+      <script>scripts\GameResult.gml</script>
     </scripts>
   </scripts>
   <fonts name="fonts">
