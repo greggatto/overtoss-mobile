@@ -1,3 +1,5 @@
+///MinionLaunch(angle, power);
+
 global.GameState = INGAME;
 
 var Angle = argument0; // Angle of launch
