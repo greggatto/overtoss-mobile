@@ -80,9 +80,6 @@
         <script>scripts\SCR_Overlord_Step.gml</script>
       </scripts>
     </scripts>
-    <scripts name="OLD">
-      <script>scripts\scr_mBars_Draw.gml</script>
-    </scripts>
     <scripts name="MINION_ball">
       <script>scripts\Minion_Info.gml</script>
       <script>scripts\MinionSpawn.gml</script>
@@ -121,6 +118,9 @@
     <objects name="GLOBAL">
       <object>objects\OBJ_LOADER</object>
       <object>objects\OBJ_Overlord</object>
+      <object>objects\OBJ_HUD</object>
+      <object>objects\OBJ_Player</object>
+      <object>objects\OBJ_Minion</object>
     </objects>
     <objects name="BUTTONS">
       <object>objects\OBJ_ClickerLord</object>
@@ -143,37 +143,23 @@
     </objects>
     <objects name="POSITION_SETTING">
       <object>objects\OBJ_Weapon_StartPos</object>
+      <object>objects\OBJ_Minion_StartPos</object>
     </objects>
-    <objects name="OLD">
-      <object>objects\obj_wpns</object>
-      <object>objects\obj_bPrev</object>
-      <object>objects\obj_bInfo</object>
-      <object>objects\obj_ballStart</object>
-      <object>objects\obj_ball</object>
-      <object>objects\obj_bPower</object>
-      <object>objects\obj_bars</object>
-      <object>objects\obj_bEquip</object>
-      <object>objects\obj_bHit</object>
-      <object>objects\obj_HUD</object>
-      <object>objects\obj_bLuck</object>
-      <object>objects\obj_bouceMaster</object>
-      <object>objects\obj_bMenu</object>
-      <object>objects\obj_bNext</object>
-      <object>objects\obj_Burst</object>
-      <object>objects\obj_deadGuy</object>
-      <object>objects\obj_Floor</object>
-      <object>objects\obj_lvlUp</object>
-      <object>objects\obj_startPlace</object>
-      <object>objects\obj_player</object>
-      <object>objects\obj_mMenu</object>
-      <object>objects\obj_shields</object>
+    <objects name="INTERACTIVE">
+      <object>objects\OBJ_BounceLord</object>
+      <object>objects\OBJ_Ground</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\RM_Loader</room>
-    <room>rooms\MainLevel</room>
-    <room>rooms\room1</room>
-    <room>rooms\Menus</room>
+    <rooms name="MENUS">
+      <room>rooms\RM_MainMenu</room>
+      <room>rooms\RM_Store</room>
+      <room>rooms\RM_Options</room>
+      <room>rooms\RM_Credits</room>
+      <room>rooms\RM_Result</room>
+    </rooms>
+    <room>rooms\RM_Level</room>
   </rooms>
   <constants number="13">
     <constant name="NULL">0</constant>
