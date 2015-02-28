@@ -1,5 +1,4 @@
 // Any global variables goes here
-
 global.Debug = false;
 global.check = false; // tap / mouse click
 
@@ -10,13 +9,37 @@ global.PlayerEXP = 0;
 global.PlayerPower = 0; // Initial Launch and Over Impact strength
 global.PlayerPrecision = 0; // Pointer Speed and Gravity Resistance
 global.PlayerKarma = 0; // Spawn rate of objects and critical chance
-// Array with upgrades, 8 characters long. 
 
 // STORE
 global.Gold = 0; // Player gold
 global.Gems = 0; // Player gems
-// Weapon array {INSTORE = 0, OWNED = 1, TEMP = 2}
-// Minion Skin array {INSTORE = 0, OWNED = 1, TEMP = 2}
-// Overlords array {INSTORE = 0, OWNED = 1, TEMP = 2}
 
-alarm[0] = room_speed; // Change room after reloading
+// ARRAYS
+
+// Total number of upgrades in our game.
+    upgds = 8;
+// Total number of weapons in our game.
+    wpns = 5;
+// Total number of minion skins in our game.
+    mins = 5;
+// Total number of overlords in our game.
+    lords = 5;
+
+/*
+    Upgrade List:
+        For the 2nd line, use the following: {0 ~ 8} -> Upgrade Level
+    
+    Weapon, Minion, Overlord List:
+        For the 2nd line, use the following: {INSTORE = 0, OWNED = 1, TEMP = 2} -> State of item
+*/
+
+global.UpgradesList = ds_grid_create(upgds, 2); // Upgrade array
+
+global.WeaponsList = ds_grid_create(wpns, 2);   // Weapon array
+
+global.MinionList = ds_grid_create(mins, 2);    // Minion Skin array
+
+global.OverlordList = ds_grid_create(lords, 2); // Overlords array
+
+ // POST LOAD
+alarm[0] = room_speed; // Change room
