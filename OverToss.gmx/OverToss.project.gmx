@@ -6,37 +6,27 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprites name="Ball">
-      <sprite>sprites\spr_MinionImage</sprite>
-      <sprite>sprites\spr_MinionVector</sprite>
-      <sprite>sprites\spr_GolfBallImage</sprite>
-      <sprite>sprites\spr_GolfBallVector</sprite>
-      <sprite>sprites\spr_RammusImage</sprite>
-      <sprite>sprites\spr_RammusVector</sprite>
-      <sprite>sprites\spr_NinjaImage</sprite>
-      <sprite>sprites\spr_NinjaVector</sprite>
-      <sprite>sprites\spr_SuperHeroImage</sprite>
-      <sprite>sprites\spr_SuperHeroVector</sprite>
+    <sprites name="WEAPONS">
+      <sprite>sprites\spr_SpikedClubImage</sprite>
+      <sprite>sprites\spr_StopSignImage</sprite>
+      <sprite>sprites\spr_DoubleSidedAxeImage</sprite>
+      <sprite>sprites\spr_HammerImage</sprite>
+      <sprite>sprites\spr_ChaosEaterImage</sprite>
     </sprites>
-    <sprites name="Terrain">
+    <sprites name="MINION">
+      <sprite>sprites\spr_MinionImage</sprite>
+      <sprite>sprites\spr_GolfBallImage</sprite>
+      <sprite>sprites\spr_RammusImage</sprite>
+      <sprite>sprites\spr_NinjaImage</sprite>
+      <sprite>sprites\spr_SuperHeroImage</sprite>
+    </sprites>
+    <sprites name="ENVIRONMENT">
       <sprite>sprites\spr_spikes</sprite>
       <sprite>sprites\spr_Ooze</sprite>
       <sprite>sprites\spr_Devil</sprite>
       <sprite>sprites\spr_Cannon</sprite>
     </sprites>
-    <sprites name="Weapons">
-      <sprite>sprites\spr_SpikedClubImage</sprite>
-      <sprite>sprites\Spr_SpikedClubVector</sprite>
-      <sprite>sprites\spr_StopSignImage</sprite>
-      <sprite>sprites\dpr_StopSignVector</sprite>
-      <sprite>sprites\spr_DoubleSidedAxeImage</sprite>
-      <sprite>sprites\spr_DoubleSidedAxeVector</sprite>
-      <sprite>sprites\spr_HammerImage</sprite>
-      <sprite>sprites\spr_HammerVector</sprite>
-      <sprite>sprites\spr_ChaosEaterImage</sprite>
-      <sprite>sprites\spr_ChaosEaterVector</sprite>
-    </sprites>
-    <sprites name="Button">
+    <sprites name="BUTTONS">
       <sprite>sprites\spr_Play</sprite>
       <sprite>sprites\spr_Credits</sprite>
       <sprite>sprites\spr_Options</sprite>
