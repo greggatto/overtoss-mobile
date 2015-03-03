@@ -21,9 +21,6 @@
       <sprite>sprites\spr_SuperHeroImage</sprite>
     </sprites>
     <sprites name="ENVIRONMENT">
-      <sprite>sprites\spr_spikes</sprite>
-      <sprite>sprites\spr_Ooze</sprite>
-      <sprite>sprites\spr_Devil</sprite>
       <sprite>sprites\spr_Cannon</sprite>
     </sprites>
     <sprites name="BUTTONS">
