@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(room1);
+            <string>///Go to Arsenal
+room_goto(RM_Arsenal);
 </string>
           </argument>
         </arguments>

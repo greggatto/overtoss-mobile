@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(mainlevel);//go to main room
+            <string>/// Roll the credits
+//room_goto(mainlevel);//go to main room
 </string>
           </argument>
         </arguments>
