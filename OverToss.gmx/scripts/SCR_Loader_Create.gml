@@ -5,10 +5,14 @@ global.check = false; // tap / mouse click
 // PLAYER
 global.GameState = NULL; // NULL = 0 / ANGLE_PRESS = 1 / POWER_PRESS = 2 / INGAME = 3
 global.PlayerLevel = 1; // Makes new stuff availiable
-global.PlayerEXP = 0;
+global.PlayerEXP = 0; // To level up
 global.PlayerPower = 0; // Initial Launch and Over Impact strength
 global.PlayerPrecision = 0; // Pointer Speed and Gravity Resistance
 global.PlayerKarma = 0; // Spawn rate of objects and critical chance
+// Stuff currently being used
+global.InUseWeapon = BAT;
+global.InUseMinion = CLASSIC;
+global.InUseOverlord = CLASSIC;
 
 // STORE
 global.Gold = 0; // Player gold
@@ -30,7 +34,7 @@ global.Gems = 0; // Player gems
         For the 2nd line, use the following: {0 ~ 8} -> Upgrade Level
     
     Weapon, Minion, Overlord List:
-        For the 2nd line, use the following: {INSTORE = 0, OWNED = 1, TEMP = 2} -> State of item
+        For the 2nd line, use the following: {LOCKED = 0, INSTORE = 1, TEMP = 2, OWNED = 3} -> State of item
 */
 
 global.UpgradesList = ds_grid_create(upgds, 2); // Upgrade array

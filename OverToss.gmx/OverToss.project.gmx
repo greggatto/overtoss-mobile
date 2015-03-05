@@ -156,7 +156,7 @@
     </rooms>
     <room>rooms\RM_Level</room>
   </rooms>
-  <constants number="13">
+  <constants number="18">
     <constant name="NULL">0</constant>
     <constant name="ANGLE_PRESS">1</constant>
     <constant name="POWER_PRESS">2</constant>
@@ -170,6 +170,11 @@
     <constant name="POWER">1</constant>
     <constant name="PRECISION">2</constant>
     <constant name="KARMA">3</constant>
+    <constant name="LOCKED">0</constant>
+    <constant name="INSTORE">1</constant>
+    <constant name="TEMP">2</constant>
+    <constant name="OWNED">3</constant>
+    <constant name="CLASSIC">0</constant>
   </constants>
   <help>
     <rtf>help.rtf</rtf>
