@@ -1,6 +1,6 @@
-if (mouseIn)
+if (mouse_In)
 {
-    tapHold = true;
+//    tapHold = true;
     image_xscale = 0.6;
     image_yscale = image_xscale;
 }
