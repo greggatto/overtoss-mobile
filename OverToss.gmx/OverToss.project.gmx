@@ -68,11 +68,11 @@
         <script>scripts\SCR_Clicker_Left_Release.gml</script>
         <script>scripts\SCR_Clicker_Draw.gml</script>
       </scripts>
-      <script>scripts\debug.gml</script>
       <scripts name="Overlord">
         <script>scripts\OVERLORD_README.gml</script>
         <script>scripts\SCR_Overlord_Step.gml</script>
       </scripts>
+      <script>scripts\debug.gml</script>
     </scripts>
     <scripts name="MINION_ball">
       <script>scripts\Minion_Info.gml</script>
@@ -96,7 +96,8 @@
     </scripts>
     <scripts name="WEAPONS">
       <script>scripts\Wpns_Info.gml</script>
-      <script>scripts\WeaponStats.gml</script>
+      <script>scripts\WeaponCreate.gml</script>
+      <script>scripts\SCR_Weapon_Draw.gml</script>
     </scripts>
     <scripts name="PLAYER">
       <script>scripts\Player_Info.gml</script>
@@ -115,6 +116,7 @@
       <object>objects\OBJ_HUD</object>
       <object>objects\OBJ_Player</object>
       <object>objects\OBJ_Minion</object>
+      <object>objects\OBJ_Weapon</object>
     </objects>
     <objects name="BUTTONS">
       <object>objects\OBJ_ClickerLord</object>
