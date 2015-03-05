@@ -141,6 +141,7 @@
         <object>objects\obj_Yes</object>
         <object>objects\obj_Box</object>
         <object>objects\obj_Off</object>
+        <object>objects\obj_Exit</object>
       </objects>
     </objects>
     <objects name="POINTERS">
