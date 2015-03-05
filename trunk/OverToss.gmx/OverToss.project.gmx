@@ -44,6 +44,10 @@
       <sprite>sprites\spr_Overlord</sprite>
       <sprite>sprites\spr_SpecialDeal</sprite>
     </sprites>
+    <sprites name="OVERLORD">
+      <sprite>sprites\spr_OverlordCharacter</sprite>
+      <sprite>sprites\spr_Mordekaiser</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\BKG_SplashScreen</background>
