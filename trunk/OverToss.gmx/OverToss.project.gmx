@@ -32,7 +32,7 @@
       <sprite>sprites\spr_Music</sprite>
       <sprite>sprites\spr_Gore</sprite>
       <sprite>sprites\spr_No</sprite>
-      <sprite>sprites\Spr_Yes</sprite>
+      <sprite>sprites\spr_Yes</sprite>
       <sprite>sprites\spr_Pause</sprite>
       <sprite>sprites\spr_Resume</sprite>
       <sprite>sprites\spr_Store</sprite>
@@ -43,6 +43,8 @@
       <sprite>sprites\spr_Weapon</sprite>
       <sprite>sprites\spr_Overlord</sprite>
       <sprite>sprites\spr_SpecialDeal</sprite>
+      <sprite>sprites\spr_Box</sprite>
+      <sprite>sprites\spr_Off</sprite>
     </sprites>
     <sprites name="OVERLORD">
       <sprite>sprites\spr_OverlordCharacter</sprite>
@@ -130,6 +132,15 @@
         <object>objects\OBJ_SS_Restart</object>
         <object>objects\OBJ_SS_Arsenal</object>
         <object>objects\OBJ_SS_FrontEnd</object>
+      </objects>
+      <objects name="OPTIONS">
+        <object>objects\obj_sound</object>
+        <object>objects\obj_Music</object>
+        <object>objects\obj_Gore</object>
+        <object>objects\obj_No</object>
+        <object>objects\obj_Yes</object>
+        <object>objects\obj_Box</object>
+        <object>objects\obj_Off</object>
       </objects>
     </objects>
     <objects name="POINTERS">
