@@ -1,7 +1,6 @@
 ///WeaponCreate(weapon);
 
 var currentWpn = argument0;
-var new Wpn;
 
 switch currentWpn
 {
@@ -39,7 +38,7 @@ switch currentWpn
 
 sprite_index = currentWpn;
 
-newWpn = instance_create(OBJ_Weapon_StartPos.x, OBJ_Weapon_StartPos.y, OBJ_Weapon);
+var newWpn = instance_create(OBJ_Weapon_StartPos.x, OBJ_Weapon_StartPos.y, OBJ_Weapon);
 with (newWpn)
 {
     PlayerPower += Power;
