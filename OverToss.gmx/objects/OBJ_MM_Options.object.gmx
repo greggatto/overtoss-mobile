@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(Menus);
+            <string>///Go to Options
+room_goto(RM_Options);
 </string>
           </argument>
         </arguments>

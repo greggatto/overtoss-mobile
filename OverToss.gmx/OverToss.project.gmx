@@ -149,7 +149,7 @@
     <room>rooms\RM_Loader</room>
     <rooms name="MENUS">
       <room>rooms\RM_MainMenu</room>
-      <room>rooms\RM_Store</room>
+      <room>rooms\RM_Arsenal</room>
       <room>rooms\RM_Options</room>
       <room>rooms\RM_Credits</room>
       <room>rooms\RM_Result</room>
