@@ -24,10 +24,10 @@
       <sprite>sprites\spr_Cannon</sprite>
     </sprites>
     <sprites name="BUTTONS">
-      <sprite>sprites\spr_Play</sprite>
-      <sprite>sprites\spr_Credits</sprite>
-      <sprite>sprites\spr_Options</sprite>
-      <sprite>sprites\spr_QuitGame</sprite>
+      <sprite>sprites\SPR_MM_Play</sprite>
+      <sprite>sprites\SPR_MM_Credits</sprite>
+      <sprite>sprites\SPR_MM_Options</sprite>
+      <sprite>sprites\SPR_MM_Arsenal</sprite>
       <sprite>sprites\spr_Sound</sprite>
       <sprite>sprites\spr_Music</sprite>
       <sprite>sprites\spr_Gore</sprite>
@@ -45,7 +45,10 @@
       <sprite>sprites\spr_SpecialDeal</sprite>
     </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\BKG_SplashScreen</background>
+    <background>background\BKG_Menu_Main</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="GLOBAL">
@@ -111,14 +114,13 @@
     </objects>
     <objects name="BUTTONS">
       <object>objects\OBJ_ClickerLord</object>
-      <objects name="FE_FrontEnd">
-        <object>objects\OBJ_FE_Play</object>
-        <object>objects\OBJ_FE_Options</object>
-        <object>objects\OBJ_FE_Arsenal</object>
-        <object>objects\OBJ_FE_Exit</object>
-        <object>objects\OBJ_FE_Pause</object>
+      <objects name="MM_Main Menu">
+        <object>objects\OBJ_MM_Play</object>
+        <object>objects\OBJ_MM_Credits</object>
+        <object>objects\OBJ_MM_Options</object>
+        <object>objects\OBJ_MM_Arsenal</object>
       </objects>
-      <objects name="SS_SummaryScreen">
+      <objects name="SS_Summary Screen">
         <object>objects\OBJ_SS_Restart</object>
         <object>objects\OBJ_SS_Arsenal</object>
         <object>objects\OBJ_SS_FrontEnd</object>
