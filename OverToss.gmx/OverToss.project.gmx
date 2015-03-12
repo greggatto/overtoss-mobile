@@ -54,6 +54,7 @@
   <backgrounds name="background">
     <background>background\BKG_SplashScreen</background>
     <background>background\BKG_Menu_Main</background>
+    <background>background\BKG_Arsenal</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
