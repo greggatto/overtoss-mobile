@@ -1,5 +1,6 @@
 // Any global variables goes here
 global.Debug = false;
+global.Pause = false; // If the game is paused or not
 global.check = false; // tap / mouse click
 
 // PLAYER

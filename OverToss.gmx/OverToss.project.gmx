@@ -147,6 +147,7 @@
         <object>objects\obj_Off</object>
         <object>objects\obj_Exit</object>
       </objects>
+      <object>objects\OBJ_Pause</object>
     </objects>
     <objects name="POINTERS">
       <object>objects\OBJ_PAngle</object>
