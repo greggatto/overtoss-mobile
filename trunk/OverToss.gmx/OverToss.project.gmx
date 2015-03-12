@@ -50,7 +50,7 @@
       <sprite>sprites\spr_Off</sprite>
     </sprites>
     <sprites name="OVERLORD">
-      <sprite>sprites\spr_OverlordCharacter</sprite>
+      <sprite>sprites\spr_Tauren</sprite>
       <sprite>sprites\spr_Mordekaiser</sprite>
     </sprites>
     <sprites name="BACKGROUND">
