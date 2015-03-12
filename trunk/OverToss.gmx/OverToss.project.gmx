@@ -53,6 +53,13 @@
       <sprite>sprites\spr_OverlordCharacter</sprite>
       <sprite>sprites\spr_Mordekaiser</sprite>
     </sprites>
+    <sprites name="BACKGROUND">
+      <sprite>sprites\spr_Ground</sprite>
+      <sprite>sprites\spr_Stump</sprite>
+      <sprite>sprites\spr_character</sprite>
+      <sprite>sprites\spr_Ball</sprite>
+      <sprite>sprites\spr_WeaponCopy</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\BKG_SplashScreen</background>
@@ -160,6 +167,13 @@
     <objects name="INTERACTIVE">
       <object>objects\OBJ_BounceLord</object>
       <object>objects\OBJ_Ground</object>
+    </objects>
+    <objects name="BACKGROUND">
+      <object>objects\obj_StartCliff</object>
+      <object>objects\obj_Stump</object>
+      <object>objects\obj_Character</object>
+      <object>objects\obj_Ball</object>
+      <object>objects\obj_WeaponCopy</object>
     </objects>
   </objects>
   <rooms name="rooms">
