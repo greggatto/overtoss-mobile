@@ -7,19 +7,19 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>50</bbox_left>
-  <bbox_right>111</bbox_right>
-  <bbox_top>68</bbox_top>
-  <bbox_bottom>218</bbox_bottom>
+  <bbox_left>28</bbox_left>
+  <bbox_right>245</bbox_right>
+  <bbox_top>49</bbox_top>
+  <bbox_bottom>145</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>189</width>
-  <height>267</height>
+  <width>284</width>
+  <height>177</height>
   <frames>
-    <frame index="0">images\spr_StopSignImage_0.png</frame>
+    <frame index="0">images\spr_Spikes_0.png</frame>
   </frames>
 </sprite>

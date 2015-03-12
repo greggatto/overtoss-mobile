@@ -22,6 +22,9 @@
     </sprites>
     <sprites name="ENVIRONMENT">
       <sprite>sprites\spr_Cannon</sprite>
+      <sprite>sprites\spr_Devil</sprite>
+      <sprite>sprites\spr_Spikes</sprite>
+      <sprite>sprites\spr_Ooze</sprite>
     </sprites>
     <sprites name="BUTTONS">
       <sprite>sprites\SPR_MM_Play</sprite>
