@@ -54,10 +54,10 @@
     <instance objName="obj_sound" x="256" y="64" name="inst_E8E49D77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Music" x="256" y="384" name="inst_68B8A9D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Gore" x="256" y="704" name="inst_157A9CE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Box" x="1088" y="704" name="inst_2E6F3FED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Box" x="1088" y="384" name="inst_E4A58A1E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Box" x="1088" y="64" name="inst_5854FDAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Off" x="1088" y="384" name="inst_7FCC99E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Box" x="1088" y="800" name="inst_2E6F3FED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Box" x="1088" y="480" name="inst_E4A58A1E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Box" x="1088" y="160" name="inst_5854FDAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Off" x="1088" y="480" name="inst_7FCC99E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Exit" x="512" y="1024" name="inst_F6BDEFF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
