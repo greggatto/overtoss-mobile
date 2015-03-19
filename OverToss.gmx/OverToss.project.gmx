@@ -31,6 +31,12 @@
       <sprite>sprites\SPR_MM_Credits</sprite>
       <sprite>sprites\SPR_MM_Options</sprite>
       <sprite>sprites\SPR_MM_Arsenal</sprite>
+      <sprite>sprites\SPR_ARS_Despair</sprite>
+      <sprite>sprites\SPR_ARS_FEATURED</sprite>
+      <sprite>sprites\SPR_ARS_OVERLORDS</sprite>
+      <sprite>sprites\SPR_ARS_WEAPONS</sprite>
+      <sprite>sprites\SPR_ARS_MINIONS</sprite>
+      <sprite>sprites\SPR_ARS_CONSUMABLES</sprite>
       <sprite>sprites\spr_Sound</sprite>
       <sprite>sprites\spr_Music</sprite>
       <sprite>sprites\spr_Gore</sprite>
