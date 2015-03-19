@@ -154,6 +154,14 @@
         <object>objects\obj_Off</object>
         <object>objects\obj_Exit</object>
       </objects>
+      <objects name="ARS_Arsenal">
+        <object>objects\OBJ_ARS_GetMore</object>
+        <object>objects\OBJ_ARS_Featured</object>
+        <object>objects\OBJ_ARS_Overlords</object>
+        <object>objects\OBJ_ARS_Weapons</object>
+        <object>objects\OBJ_ARS_Minions</object>
+        <object>objects\OBJ_ARS_Consumables</object>
+      </objects>
       <object>objects\OBJ_Pause</object>
     </objects>
     <objects name="POINTERS">
